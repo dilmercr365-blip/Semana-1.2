@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 12px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .centro {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Horario de Clases - Semestre 2026</h1>
+
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="centro">
+                8:00 - 9:00<br>
+                9:00 - 10:00
+            </td>
+            <td rowspan="2">Matemáticas</td>
+            <td rowspan="2">Física</td>
+            <td>Matemáticas</td>
+            <td rowspan="2">Química</td>
+            <td>Inglés</td>
+        </tr>
+
+        <tr>
+            <td>Programación</td>
+            <td>Inglés</td>
+        </tr>
+
+        <tr>
+            <td class="centro">10:00 - 11:00</td>
+            <td colspan="5" class="centro">
+                <strong>RECESO</strong>
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="centro">
+                11:00 - 12:00<br>
+                12:00 - 13:00
+            </td>
+            <td rowspan="2">Historia</td>
+            <td rowspan="2">Literatura</td>
+            <td>Programación</td>
+            <td rowspan="2">Historia</td>
+            <td rowspan="2">Literatura</td>
+        </tr>
+
+        <tr>
+            <td>Deportes</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" style="text-align: right;">
+                <strong>Total de horas semanales:</strong>
+            </td>
+            <td class="centro">
+                <strong>18 horas</strong>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
